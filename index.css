@@ -5,7 +5,7 @@ body {
   font-weight: 400;
 }
 
-/*layout*/
+/* Layout */
 .container {
   width: 575px;
   margin: 0px auto;
@@ -15,18 +15,15 @@ body {
 #logo,
 #user-avatar,
 .user-info p {
-  margin: 0;
+  margin: 0 0 0 5px;
 }
 
-/*typography*/
 .user-name,
 .likes,
 .desc-span {
   font-size: 16px;
   font-weight: 600;
 }
-
-/*header*/
 
 header .container {
   display: flex;
@@ -41,20 +38,19 @@ header {
 }
 
 #logo {
-  width: 30%;
-  height: 150%;
+  width: 25%;
+  height: 125%;
 }
-
-/*post*/
 
 section .container {
   border-bottom: 1px solid #e4e4e4;
 }
+
 #user-avatar,
 .user-info img {
   width: 10%;
   border-radius: 50%;
-  margin: 6px;
+  margin: 8px;
 }
 
 .user-info {
@@ -77,9 +73,9 @@ section .container {
 }
 
 .likes {
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .desc {
-  margin: 0 0px 5px 5px;
+  margin: 0 0px 5px 10px;
 }
