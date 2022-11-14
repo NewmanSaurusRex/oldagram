@@ -1,6 +1,6 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  margin: 0 auto;
+  margin: 10px auto;
   font-size: 16px;
   font-weight: 400;
 }
@@ -16,16 +16,6 @@ body {
 #user-avatar,
 .user-info p {
   margin: 0;
-}
-
-.icons img,
-.image-post,
-.desc-span,
-.user-info img,
-#logo,
-#user-avatar,
-.user-name {
-  cursor: pointer;
 }
 
 /*typography*/
