@@ -1,15 +1,15 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  margin: 0 0 10px 0;
-  font-size: 13px;
+  margin: 0 auto;
+  font-size: 16px;
   font-weight: 400;
 }
 
 /*layout*/
 .container {
-  width: 40vw;
+  width: 575px;
   margin: 0px auto;
-  padding: 0;
+  padding: 4px;
 }
 
 #logo,
@@ -18,9 +18,9 @@ body {
   margin: 0;
 }
 
-.interaction-icons img,
+.icons img,
 .image-post,
-.desc-span-nick,
+.desc-span,
 .user-info img,
 #logo,
 #user-avatar,
@@ -31,9 +31,9 @@ body {
 /*typography*/
 .user-name,
 .likes,
-.desc-span-nick {
-  font-size: 14px;
-  font-weight: 700;
+.desc-span {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /*header*/
@@ -47,7 +47,6 @@ header .container {
 
 header {
   background-color: white;
-  position: sticky;
   top: 0;
 }
 
@@ -78,14 +77,13 @@ section .container {
   width: inherit;
 }
 
-.interaction-icons {
+.icons {
   padding: 10px 0;
 }
 
-.interaction-icons img {
+.icons img {
   width: 30px;
   margin: 0px 5px;
-  cursor: pointer;
 }
 
 .likes {
