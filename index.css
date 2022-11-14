@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 375px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  padding: 10px 24px;
+  border-bottom: 1px solid #c4c4c4
+}
+
+.user-avatar {
+  width: 32px;
+}
+
+.logo {
+  width: 130px;
+  height: 50px;
+}
+
+.post .header {
+  display: flex;
+  justify-content: start;
+}
+
+.post .avatar {
+  width: 32px;
+}
+
+.post .img {
+  width: 100%;
+}
